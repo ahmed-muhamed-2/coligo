@@ -6,7 +6,7 @@ import { QuizesData } from '../services/fakeQuizesService';
 import './Quizes.scss';
 
 function Quizes() {
-  const quizesList = QuizesData.map(r => <QuizesCell name={r.name} class={r.class} topic={r.topic} date={r.deu_date} url={r.url}/>);
+  const quizesList = QuizesData.map((r, i) => <QuizesCell key={i} name={r.name} class={r.class} topic={r.topic} date={r.deu_date} url={r.url}/>);
   return (
     <div className="quizes-card">
       <div className="quizes-title">

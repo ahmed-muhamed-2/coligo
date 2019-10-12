@@ -7,7 +7,7 @@ import './QuizesCell.scss';
 function QuizesCell(props) {
   return (
     <div className="quizes-cell">
-        <i className="fas fa-hourglass-half"></i> <sapn>{props.name}</sapn>
+        <i className="fas fa-hourglass-half"></i> <span>{props.name}</span>
         <p>Course: {props.class}</p>
         <p>Topic: {props.topic}</p>
         <p>Due to: {props.date}</p>

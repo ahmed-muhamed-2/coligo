@@ -9,12 +9,12 @@ import { AnnouncementsData } from '../services/fakeAnnouncmentService'
 
 
 function Announcements() {
-  const announcementsList = AnnouncementsData.map( r => <AnnouncementBody name={r.name} message={r.message} class={r.class} avtar={r.avtar} />);
+  const announcementsList = AnnouncementsData.map( (r, i) => <AnnouncementBody key={i} name={r.name} message={r.message} class={r.class} avtar={r.avtar} />);
 
   return (
-    <div class="card-Announcements">
-        <div class="card-title">
-            <div class="card-title-left">
+    <div className="card-Announcements">
+        <div className="card-title">
+            <div className="card-title-left">
                 <h2>Announcements</h2>
                 <p>We educate keep update</p>
             </div>

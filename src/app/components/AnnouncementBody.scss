@@ -1,31 +1,32 @@
-.chips {
+.Announcements {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.chip-user {
-  width: 25%;
-  border-right: 1px solid #d9dadb;
-}
-.chip {
-  display: flex;
-  align-items: center;
-  padding: 0 25px;
-}
-
-.chip p {
-  color: #d9dadb;
-}
-
-.chip img {
-  float: left;
-  margin: 0 10px 0 -25px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
-.Announcement-description {
-  color: #d9dadb;
-  width: 70%;
+  margin: 10px 0;
+  &-user {
+    flex: 0 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  &-avtar {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0 5px;
+  }
+  &-class {
+    display: flex;
+    flex-direction: column;
+    p {
+      color: #d9dadb;
+    }
+  }
+  &-message {
+    color: #d9dadb;
+    flex: 1;
+    padding: 0 15px;
+    border-left: 1px solid #d9dadb;
+  }
 }

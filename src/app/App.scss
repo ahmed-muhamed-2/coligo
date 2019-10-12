@@ -13,3 +13,9 @@
     overflow-x: hidden;
   }
 }
+
+@media (max-width: 767.98px) {
+  .Dashboard {
+    flex-direction: column;
+  }
+}

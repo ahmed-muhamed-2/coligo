@@ -6,10 +6,16 @@
   background: #fff;
   border-radius: 15px;
   padding: 10px;
-  box-shadow: 6px 7px 10px -5px rgba(0, 0, 0, 0.54);
+  box-shadow: 3px 3px 9px -3px rgba(0, 0, 0, 0.54);
 }
 .quizes-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+  .quizes-card {
+    max-width: unset;
+  }
 }

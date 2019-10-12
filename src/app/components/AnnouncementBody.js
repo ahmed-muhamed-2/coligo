@@ -7,19 +7,15 @@ import './AnnouncementBody.scss';
 
 function AnnouncementBody(props) {
   return (
-    <div className="card-Announcements-body">
-      <div className="chips">
-        <div className="chip-user">
-          <div className="chip">
-            <img src={props.avtar} alt="Person" width="96" height="96" />
-            <div className="user-name">
-              <span>{ props.name }</span>
-              <p>{ props.class }</p>
-            </div>
-          </div>
+    <div className="Announcements">
+      <div className="Announcements-user">
+        <img className="Announcements-avtar" src={props.avtar} alt="Person" width="96" height="96" />
+        <div className="Announcements-class">
+          <span>{ props.name }</span>
+          <p>{ props.class }</p>
         </div>
-          <p className="Announcement-description">{props.message}</p>
       </div>
+      <p className="Announcements-message">{props.message}</p>
     </div>
   );
 }

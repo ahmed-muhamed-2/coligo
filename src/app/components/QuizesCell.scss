@@ -1,0 +1,21 @@
+.quizes-cell {
+  margin: 10px 0;
+  .fas {
+    color: #88c7bf;
+  }
+  .btn-quize {
+    margin-top: 15px;
+    border: 1px solid #88c7bf;
+    color: #88c7bf;
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    &:hover {
+      background: #88c7bf;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.quizes-card {
+  height: max-content;
+  flex: 1 0 400px;
+  max-width: 400px;
+  margin: 15px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 6px 7px 10px -5px rgba(0, 0, 0, 0.54);
+}
+.quizes-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,52 @@
+.sidenav {
+  height: 100%;
+  width: 100%;
+  // position: fixed;
+  z-index: 1;
+  // top: 0;
+  // left: 0;
+  flex: 0 0 250px;
+  background-image: linear-gradient(
+    to bottom,
+    #155679,
+    #1d6181,
+    #266d89,
+    #317891,
+    #3d8498
+  );
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav-container {
+  width: 250px;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+}
+h1 {
+  color: white;
+}
+.main {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-lnks {
+  margin: 20px 0;
+}
+.nav-lnks a {
+  color: white;
+  text-decoration: none;
+  padding: 16px 36px;
+  display: block;
+  font-size: 20px;
+  margin: 15px 0;
+}
+.nav-lnks a:hover {
+  color: #155679;
+  background: #fff;
+}
+.nav-lnks a i {
+  margin: 0 5px;
+}

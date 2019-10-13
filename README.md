@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/42a46466-dce6-4aab-9951-8e65eca1775c/deploy-status)](https://coligo.netlify.com/)
 
-### Technolgies used
+### Technologies used
 
 - React
 - SCSS

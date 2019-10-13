@@ -1,8 +1,10 @@
+@import '../../style/abstract/variables';
 .card-Announcements {
   flex: 1 0 600px;
   height: max-content;
   margin: 15px;
-  background: #fff;
+  background: $white;
+  background: var(--white, $white);
   border-radius: 15px;
   padding: 15px;
   box-shadow: 3px 3px 9px -3px rgba(0, 0, 0, 0.54);

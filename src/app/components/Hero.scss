@@ -1,5 +1,8 @@
+@import '../../style/abstract/variables';
+
 .hero {
-  background: #fff;
+  background: $white;
+  background: var(--white, $white);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 3px 3px 9px -3px rgba(0, 0, 0, 0.54);
@@ -7,21 +10,24 @@
     width: 40%;
     p {
       margin: 5px 0;
-      color: #888888;
+      color: $title;
+      color: var(--title, $title);
       font-size: 20px;
       font-weight: 200;
     }
   }
   h1 {
     font-size: 40px;
-    color: #155679;
+    color: $hero-title;
+    color: var(--hereo-title, $hero-title);
     margin: 5px 0;
   }
   .hero-p {
     font-size: 20px;
     margin: 15px 0;
     font-style: oblique;
-    color: #dbe2e5;
+    color: $secondary-font-color;
+    color: var(--secondary-font-color, $secondary-font-color);
   }
   .btn {
     cursor: pointer;
@@ -29,8 +35,10 @@
     outline: none;
     padding: 15px 30px;
     font-size: 15px;
-    background: #54cdc1;
+    background: $main-btn;
+    background: va(--main-btn, $main-btn);
     border-radius: 10px;
-    color: #fff;
+    color: $white;
+    color: var(--white, $white);
   }
 }

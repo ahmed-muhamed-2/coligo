@@ -1,12 +1,16 @@
+@import '../../style/abstract/variables';
 .quizes-cell {
   margin: 10px 0;
   .fas {
-    color: #88c7bf;
+    color: $main-btn;
+    color: var(--main-btn, $main-btn);
   }
   .btn-quize {
     margin-top: 15px;
-    border: 1px solid #88c7bf;
-    color: #88c7bf;
+    border: 1px solid $main-btn;
+    border: 1px solid var(--main-btn, $main-btn);
+    color: $main-btn;
+    color: var(--main-btn, $main-btn);
     width: 100%;
     border-radius: 6px;
     padding: 10px;
@@ -14,8 +18,10 @@
     cursor: pointer;
     outline: none;
     &:hover {
-      background: #88c7bf;
-      color: #fff;
+      background: $main-btn;
+      background: var(--main-btn, $main-btn);
+      color: $white;
+      color: var(--white, $white);
     }
   }
 }

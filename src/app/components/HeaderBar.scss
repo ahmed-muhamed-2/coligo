@@ -1,6 +1,8 @@
+@import '../../style/abstract/variables';
 .header {
   width: 100%;
-  background: #fff;
+  background: $white;
+  background: var(--white, $white);
 }
 .header-body {
   display: flex;
@@ -9,7 +11,8 @@
   padding: 10px;
 }
 .name {
-  color: #888888;
+  color: $title;
+  color: var(--title, $title);
 }
 .search {
   display: flex;
@@ -23,7 +26,8 @@
   padding: 10px;
   border: 1px solid rgba(244, 245, 247, 0.342);
   border-radius: 25px;
-  box-shadow: 0 0 10px 0px #eeeeee;
+  box-shadow: 0 0 10px 0px $search-shadow;
+  box-shadow: 0 0 10px 0px var(--search-shadow, $search-shadow);
   width: 300px;
 }
 .input-search input {
@@ -37,9 +41,5 @@
   align-items: center;
   > * {
     margin: 0 5px;
-  }
-}
-@media (max-width: 767.98px) {
-  .search {
   }
 }

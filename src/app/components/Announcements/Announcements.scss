@@ -1,5 +1,6 @@
-@import '../../style/abstract/variables';
-.card-Announcements {
+@import '../../../style/abstract/variables';
+
+.Announcements-card {
   flex: 1 0 600px;
   height: max-content;
   margin: 15px;
@@ -8,10 +9,10 @@
   border-radius: 15px;
   padding: 15px;
   box-shadow: 3px 3px 9px -3px rgba(0, 0, 0, 0.54);
-}
-.card-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15px;
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
 }

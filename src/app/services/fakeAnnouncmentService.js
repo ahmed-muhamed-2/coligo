@@ -1,5 +1,5 @@
 
-export const AnnouncementsData = [
+const AnnouncementsData = [
     {
         name: 'Mr.Ahmed Mostafa',
         class: 'Math 101',
@@ -37,3 +37,6 @@ export const AnnouncementsData = [
         avtar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     }
 ];
+
+
+export const fakeAnnouncements = () => new Promise((resolve, reject) =>  setTimeout(() => resolve(AnnouncementsData) , 2000));

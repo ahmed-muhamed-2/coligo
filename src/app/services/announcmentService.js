@@ -2,9 +2,9 @@ import { http } from './httpServices';
 
 const ANNOUNCMENT_SERVICE = 'http://test.coligolms.com/api/announcement';
 // const ANNOUNCMENT_SERVICE = 'https://jsonplaceholder.typicode.com/todos';
-const LISTANNOUNCMENT = http.get(ANNOUNCMENT_SERVICE);
+const realAnnouncment = http.get(ANNOUNCMENT_SERVICE);
 
-export default LISTANNOUNCMENT;
+export default realAnnouncment;
 
 
 

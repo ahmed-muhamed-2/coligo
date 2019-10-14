@@ -2,18 +2,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
-import './QuizesCell.scss';
+import './QuizeCell.scss';
 
-function QuizesCell(props) {
+function QuizeCell(props) {
   return (
-    <div className="quizes-cell">
+    <div className="quize-cell">
         <i className="fas fa-hourglass-half"></i> <span>{props.name}</span>
         <p>Course: {props.class}</p>
         <p>Topic: {props.topic}</p>
         <p>Due to: {props.date}</p>
-        <button className="btn-quize">Start Quiz</button>
+        <button className="quize-cell-btn">Start Quiz</button>
     </div>
   );
 }
 
-export default QuizesCell;
+export default QuizeCell;

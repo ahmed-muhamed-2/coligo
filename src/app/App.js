@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.scss';
-import Sidenav from './components/Sidenav';
-import HeaderBar from './components/HeaderBar';
-import Cards from './components/Cards';
-import Body from './components/Body';
+import Sidenav from './components/Layout/Sidenav';
+import HeaderBar from './components/Layout/HeaderBar';
+import Cards from './components/Layout/Cards';
+import Hero from './components/Layout/Hero';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <div className="Dashboard-main">
           <HeaderBar />
           <div className="Dashboard-sections">
-            <Body />
+            <Hero />
             <Cards />
           </div>
       </div>

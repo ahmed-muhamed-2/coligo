@@ -1,11 +1,11 @@
-@import '../../style/abstract/variables';
-.quizes-cell {
+@import '../../../style/abstract/variables';
+.quize-cell {
   margin: 10px 0;
   .fas {
     color: $main-btn;
     color: var(--main-btn, $main-btn);
   }
-  .btn-quize {
+  &-btn {
     margin-top: 15px;
     border: 1px solid $main-btn;
     border: 1px solid var(--main-btn, $main-btn);

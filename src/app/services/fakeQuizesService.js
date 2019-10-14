@@ -28,3 +28,5 @@ export const QuizesData = [
         url: '#'
     }
 ];
+
+export const fakeQuizes = () => new Promise((resolve, reject) =>  setTimeout(() => resolve(QuizesData) , 2000));
